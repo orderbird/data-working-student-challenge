@@ -10,6 +10,7 @@ You will find the two datasets in this repository. The first one "items" shows m
 
 ## Tasks
 
+The following tasks are solved with Python. Only if it's mentioned to solve in SQL, SQL should be used. The main library to use is Pandas, but you will need other libraries too.
 
 ### Task 1
 
