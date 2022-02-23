@@ -32,13 +32,13 @@ Calculate the total price of each tag and sort your result in descending order. 
 
 Please explain which join you will use and why. And also explain why the size of your dataframe has changed or not.
 
-You can decide if you wanna solve this Task with Python, SQL or even both variants.
+You can decide if you want to solve this Task with Python, SQL or even both variants.
 
 ### Task 4
 
 What are the top 3 sold items based on quantity per tag?
 
-You can decide if you wanna solve this Task with Python, SQL or even both variants.
+You can decide if you want to solve this Task with Python, SQL or even both variants.
 
 ---
 
