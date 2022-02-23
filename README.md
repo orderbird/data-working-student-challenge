@@ -2,25 +2,25 @@
 
 ## Introduction
 
-Welcome. This tech challenge will give you an idea on how your work at Orderbird could look like. For that your main tools will be Python and SQL.
+Welcome. This tech challenge will give you an idea on how your work at orderbird could look like. If you choose to accept the challenge then please submit your solution within one week from now on. If life prevents you from submitting it on time then please let us know (data-tech-challenge@orderbird.com).
 
-To start with this tech challenge, please copy this repository and create a Jupyter Notebook with your solution, locally. The timeline for this challenge ends today in one week. Please send us before the timeline ends your local version of this repository (EMAIL). And please do not create a pull request or fork this repository as your solution should not end up being public afterwards.
+To start with this tech challenge, please copy this repository and locally add a Jupyter Notebook with your solution. Please *do not* create a pull request or fork this repository as your solution should not end up being public afterwards. 
 
 ## The Data
 
-You will find two datasets in this repository. The first one "items" shows menu card items, which where sold by our customers. Each item is separated into item_name and category. The category can bundle multiple item_names to one topic of a customers choice (e.g. the item names cola, fanta, sprite bundled to softdrinks). Each item has also a price (price of a single item) and an item_count, which is the quantity of sold items of one combination of item_name and category.
+You are given two datasets in this repository. The first one "items" contains menu card items which were sold by our customers. Each item is separated into item_name and category. The category can bundle multiple item_names to one topic of a customer's choice (e.g. the item names cola, fanta, sprite bundled to softdrinks). Each item has also a price (price of a single item) and an item_count, which is the quantity of sold items of one combination of item_name and category.
 
-The other dataset "tags" has like the previous dataset item_name and category. And also a column tags, where some logic got applied to classify items. The values of this column are in form of a [set](https://docs.python.org/3/tutorial/datastructures.html#sets), which means each item_name and category in combination can have multiple tags.
+The other dataset "tags" provides item_name and category enriched with labels (tags) which resulted from a classification task applied on the item. The tags are given as a [set](https://docs.python.org/3/tutorial/datastructures.html#sets). Please notice that an item (i.e. item_name and its category) can have multiple tags.
 
 ## Tasks
 
-The following tasks should be solved with Python. Only if it's mentioned to solve it with SQL, SQL should be used. The main library to use is Pandas and for SQL [pandasql](https://pypi.org/project/pandasql/). But you will need other libraries too. If you are deciding to use alternative libraries as the two mentioned above, please explain your decision.
+The following tasks should be solved with Python and/or SQL (applied on a DataFrame). We recommend to use Pandas and [pandasql](https://pypi.org/project/pandasql/). If you decide to use alternative libraries as the two mentioned above, please explain your decision.
 
-In general it's advisable to use a Data Scientist workflow. That consists of getting insights into the data you are working with, cleaning/preprocessing the data (e.g. removing duplicates, ...) and doing some analysis.
+We recommend to follow a "Data Scientific workflow" which starts with loading the data, followed by a cleansing/preprocessing step (e.g. removing duplicates, ...) and ends with doing some awesome analysis.
 
 ### Task 1
 
-Load the data and get an overview about the datasets. Please describe what you see. (e.g. what is the size of the datasets, which tags do you have, min/max/avg of turnover and item_counts, ...)
+Load the data and get an overview about the datasets by summarizing them, e.g. what is the size of the datasets, which tags do you have, ... .
 
 ### Task 2
 
@@ -28,18 +28,19 @@ How many Jägermeister items were sold? (Hint: Regular expressions could be usef
 
 ### Task 3
 
-Calculate the total price of each tag and sort your result in descending order. (Hint: You are working with a set of tags. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html)
+Calculate the total price of each tag and sort your result in descending order. (Hint: You are working with a set of tags. Hence, "explode" is your friend :-) )
 
-You can decide if you want to solve this Task with Python, SQL or even both variants.
+You can decide if you want to solve this Task with Pandas, SQL or even both variants.
 
 ### Task 4
 
 What are the top 3 sold items based on quantity per tag?
 
-You can decide if you want to solve this Task with Python, SQL or even both variants.
+You can decide if you want to solve this Task with Pandas, SQL or even both variants.
 
----
+## And now what?
 
-Please do not create a pull request or fork this repository as your solution should not end up being public afterwards. If you have questions, please reach out to us (EMAIL).
+Please send us a zipped file containing your local copy of this git-repository with your solution notebook.
+Please *do not* create a pull request or fork this repository as your solution should not end up being public afterwards. If you have questions, please reach out to us (data-tech-challenge@orderbird.com).
 
 Good luck and happy coding!
