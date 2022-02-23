@@ -14,9 +14,9 @@ The other dataset "tags" has like the previous dataset item_name and category. A
 
 ## Tasks
 
-The following tasks should be solved with Python. Only if it's mentioned to solve in SQL, SQL should be used. The main library to use is Pandas and for SQL [pandasql](https://pypi.org/project/pandasql/). But you will need other libraries too. If you are deciding to use alternative libraries as the two mentioned above, please explain your decision.
+The following tasks should be solved with Python. Only if it's mentioned to solve it with SQL, SQL should be used. The main library to use is Pandas and for SQL [pandasql](https://pypi.org/project/pandasql/). But you will need other libraries too. If you are deciding to use alternative libraries as the two mentioned above, please explain your decision.
 
-In general it's advisable to use a Data Scientist workflow. Generally speaking it consists of getting insights into the data you are working with, cleaning/preprocessing the data (e.g. removing duplicates, ...) and doing some analysis. And repeating the last two steps until the outcome is as you desire.
+In general it's advisable to use a Data Scientist workflow. That consists of getting insights into the data you are working with, cleaning/preprocessing the data (e.g. removing duplicates, ...) and doing some analysis.
 
 ### Task 1
 
@@ -28,29 +28,17 @@ How many Jägermeister items were sold? (Hint: Regular expressions could be usef
 
 ### Task 3
 
-Calculate the total price of each tag and also the total price overall. And sort your result in descending order. (Hint: You are working with a set of tags. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html)
+Calculate the total price of each tag and sort your result in descending order. (Hint: You are working with a set of tags. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html)
 
 Please explain which join you will use and why. And also explain why the size of your dataframe has changed or not.
 
-#### Task 3.1
-
-Solved with Python.
-
-#### Task 3.2
-
-Solved with SQL (pandasql).
+You can decide if you wanna solve this Task with Python, SQL or even both variants.
 
 ### Task 4
 
 What are the top 3 sold items based on quantity per tag?
 
-#### Task 4.1
-
-Solved with Python.
-
-#### Task 4.2
-
-Solved with SQL (pandasql).
+You can decide if you wanna solve this Task with Python, SQL or even both variants.
 
 ---
 
