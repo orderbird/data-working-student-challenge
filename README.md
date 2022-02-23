@@ -20,7 +20,7 @@ In general it's advisable to use a Data Scientist workflow. That consists of get
 
 ### Task 1
 
-Load the data and get an overview about the datasets. Please describe what you see.
+Load the data and get an overview about the datasets. Please describe what you see. (e.g. what is the size of the datasets, which tags do you have, min/max/avg of turnover and item_counts, ...)
 
 ### Task 2
 
@@ -29,8 +29,6 @@ How many Jägermeister items were sold? (Hint: Regular expressions could be usef
 ### Task 3
 
 Calculate the total price of each tag and sort your result in descending order. (Hint: You are working with a set of tags. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html)
-
-Please explain which join you will use and why. And also explain why the size of your dataframe has changed or not.
 
 You can decide if you want to solve this Task with Python, SQL or even both variants.
 
