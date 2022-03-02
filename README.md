@@ -10,7 +10,7 @@ To start with this tech challenge, please copy this repository and locally add a
 
 You are given two datasets in this repository. The first one "items" contains menu card items which were sold by our customers. Each item is separated into item_name and category. The category can bundle multiple item_names to one topic of a customer's choice (e.g. the item names cola, fanta, sprite bundled to softdrinks). Each item has also a price (price of a single item) and an item_count, which is the quantity of sold items of one combination of item_name and category.
 
-The other dataset "tags" provides item_name and category enriched with labels (tags) which resulted from a classification task applied on the item. The tags are given as a [set](https://docs.python.org/3/tutorial/datastructures.html#sets). Please notice that an item (i.e. item_name and its category) can have multiple tags.
+The other dataset "tags" provides item_name and category enriched with labels (tags) which resulted from a classification task applied on the item. The tags are given as a [set](https://docs.python.org/3/tutorial/datastructures.html#sets). Please notice that an item (i.e. item_name and its category) can have multiple tags or no tags (empty set).
 
 ## Tasks
 
@@ -20,7 +20,12 @@ We recommend to follow a "Data Scientific workflow" which starts with loading th
 
 ### Task 1
 
-Load the data and get an overview about the datasets by summarizing them, e.g. what is the size of the datasets, which tags do you have, ... .
+Load the data and get an overview about the datasets by answering the following questions
+1. How many different items, i.e. combinations of (item_name, category), do you see?
+2. How many different categories do you see?
+3. How many different tags do you see? (Hint: You are working with a set of tags. Hence, "explode" is your friend :-) )
+
+Show that for each item there exists a (maybe empty) set of tags. 
 
 ### Task 2
 
@@ -28,15 +33,15 @@ How many Jägermeister items were sold? (Hint: Regular expressions could be usef
 
 ### Task 3
 
-Calculate the total price of each tag and sort your result in descending order. (Hint: You are working with a set of tags. Hence, "explode" is your friend :-) )
+Calculate the total turnover, i.e. #items times the price, of each tag and sort your result in descending order. 
 
-You can decide if you want to solve this Task with Pandas, SQL or even both variants.
+You can decide if you want to solve this task with Pandas, SQL or even both variants.
 
 ### Task 4
 
 What are the top 3 sold items based on quantity per tag?
 
-You can decide if you want to solve this Task with Pandas, SQL or even both variants.
+You can decide if you want to solve this task with Pandas, SQL or even both variants.
 
 ## And now what?
 
