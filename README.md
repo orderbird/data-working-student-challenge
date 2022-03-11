@@ -25,7 +25,7 @@ Load the data and get an overview about the datasets by answering the following 
 2. How many different categories do you see?
 3. How many different tags do you see? (Hint: You are working with a set of tags. Hence, "explode" is your friend :-) )
 
-Show that for each item there exists a (maybe empty) set of tags. 
+**Show that for each item, i.e. (item_name, category), there exists a (maybe empty) set of tags.**
 
 ### Task 2
 
